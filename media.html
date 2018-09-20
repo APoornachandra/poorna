@@ -1,0 +1,58 @@
+<html>
+ <head>
+ 	<style type="text/css">
+ 	#p1
+ 	{
+ 		width:150px;
+ 		height: 150px;
+ 		background-color : red;
+ 	}
+ 	#p2
+ 	{
+ 		width: 150px;
+ 		height: 150px;
+ 		background-color: yellow;
+ 	}
+ 	@media (min-width:1200px )
+ 	{
+ 		#p1
+ 		{
+ 			width: 80%;
+ 		}
+ 	}
+ 	@media (min-width:992px) and (max-width:1199px)
+ 	{
+ 		#p1
+ 		{
+ 			width:600px;
+ 			height: 780px;
+ 		}
+ 		body 
+ 		{
+ 			background-color: green;
+ 		}
+
+ 	} 
+ 	@media (min-width: 332px) and (max-width: 662px)
+ 	{
+ 		#p1{
+ 			width: 400px;
+ 			height: 450px;
+ 		}
+ 	}
+ 	@media (min-width: 450px) and (max-width: 800px)
+ 	{
+ 		#p2{
+ 			width: 600px;
+ 			height: 200px;
+ 			background-color: green;
+ 		}
+ 	}
+ 	</style>
+ </head>
+ <body>
+ 	<p id="p1"></p>
+ 	<p id="p2"></p>
+ </body>
+
+</html>
